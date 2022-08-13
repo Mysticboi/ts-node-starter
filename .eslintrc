@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["airbnb-base", "airbnb-typescript/base"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules":{
+    "linebreak-style":"off",
+    "no-console":"off",
+    "@typescript-eslint/comma-dangle":"off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "no-plusplus":"off",
+    "object-curly-newline":"off",
+    "max-len":"off",
+    "operator-linebreak":"off"
+  }
+}
