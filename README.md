@@ -4,18 +4,18 @@ Made By Walid OULDERRA
 
 ## Installing dependencies
 
-`yarn install`
+`npm i` which stands for `npm install`
 
-## Launching project
+## Launching project (Production)
 
 ### First: Build project
 
-`yarn build`
+`npm run build`
 
 ### Second: Start project
 
-`yarn start`
+`npm start`
 
-## Possible command
+## Launching project (Development with autorefresh)
 
-`yarn dev` to start in dev mode with nodemon autorefresh
+`npm run dev` to start in dev mode with nodemon autorefresh
